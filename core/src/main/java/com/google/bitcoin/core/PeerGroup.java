@@ -1647,14 +1647,6 @@ public class PeerGroup extends AbstractExecutionThreadService implements Transac
         this.maxNrPeersToDiscover = maxNrPeersToDiscover;
     }
 
-    public int getMaxNrPeersToDiscover() {
-        return maxNrPeersToDiscover;
-    }
-
-    public void setMaxNrPeersToDiscover(int maxNrPeersToDiscover) {
-        this.maxNrPeersToDiscover = maxNrPeersToDiscover;
-    }
-
     /** See {@link #setUseLocalhostPeerWhenPossible(boolean)} */
     public boolean getUseLocalhostPeerWhenPossible() {
         lock.lock();
